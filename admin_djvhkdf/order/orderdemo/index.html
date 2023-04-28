@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Table Drag and Drop jQuery plugin</title>
+    <link rel="stylesheet" href="tablednd.css" type="text/css"/>
+    <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+    <script type="text/javascript" src="js/jquery.tablednd.0.7.min.js"></script>
+    <script type="text/javascript">
+$(document).ready(function() {
+	  $('#table-5').tableDnD({
+        onDrop: function(table, row) {
+            alert($('#table-5').tableDnDSerialize());
+        },
+        dragHandle: ".dragHandle"
+    });
+
+    $("#table-5 tr").hover(function() {
+          $(this.cells[0]).addClass('showDragHandle');
+    }, function() {
+          $(this.cells[0]).removeClass('showDragHandle');
+    });
+});
+</script>
+</head>
+<body>
+
+<div class="tableDemo">
+<table id="table-5" cellspacing="0" cellpadding="2">
+    <tr id="table5-row-1"><td class="dragHandle">&nbsp;</td><td>1</td><td>One</td><td>some text</td></tr>
+    <tr id="table5-row-2"><td class="dragHandle">&nbsp;</td><td>2</td><td>Two</td><td>some text</td></tr>
+    <tr id="table5-row-3"><td class="dragHandle">&nbsp;</td><td>3</td><td>Three</td><td>some text</td></tr>
+    <tr id="table5-row-4"><td class="dragHandle">&nbsp;</td><td>4</td><td>Four</td><td>some text</td></tr>
+    <tr id="table5-row-5"><td class="dragHandle">&nbsp;</td><td>5</td><td>Five</td><td>some text</td></tr>
+    <tr id="table5-row-6"><td class="dragHandle">&nbsp;</td><td>6</td><td>Six</td><td>some text</td></tr>
+</table>
+</div>
+
+</body>
+</html>

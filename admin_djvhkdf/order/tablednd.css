@@ -1,0 +1,7 @@
+.tDnD_whileDrag, .tDnD_whileDrag td:hover {
+    background-color: #eee !important;
+}
+
+.awe-move, .table td:last-child {
+    cursor: move !important;
+}

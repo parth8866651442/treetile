@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'Comfortaa-Regular';
+  src: url('font/Comfortaa-Regular.eot?#iefix') format('embedded-opentype'), 
+  url('font/Comfortaa-Regular.woff') format('woff'), 
+  url('font/Comfortaa-Regular.ttf')  format('truetype'), 
+  url('font/Comfortaa-Regular.svg#Comfortaa-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url('font/Futura.eot?#iefix') format('embedded-opentype'), 
+  url('font/Futura.woff') format('woff'), 
+  url('font/Futura.ttf')  format('truetype'), 
+  url('font/Futura.svg#Futura') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('font/Gotham-Book.eot?#iefix') format('embedded-opentype'), 
+  url('font/Gotham-Book.woff') format('woff'), 
+  url('font/Gotham-Book.ttf')  format('truetype'), 
+  url('font/Gotham-Book.svg#Gotham-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{
+	font-family: Gotham-Book;
+	color: #000;
+}
+
+option{
+	font-family: Gotham-Book;
+}
+
+input, button, select, textarea{
+	font-family: "Gotham-Book";
+}
+
+/*  - - - - - - - - - - - -
+	SIDEBAR SECTION START
+- - - - - - - - - - - - - */
+.sidebar-actionbar{
+	padding:25px 0;
+	width: auto !important;
+	box-shadow: none;
+	border-bottom: 1px dotted #fff;
+	border-radius: 0px;
+}
+.user-profile figcaption a{
+	padding-top: 25px;
+	font-size: 20px;
+}
+.user-profile figcaption em, .user-profile figcaption .last-login{
+	padding-top: 5px;
+}
+.main-navigation > ul{
+	border: none;
+}
+
+.main-navigation > ul > li{
+	border:none;
+}
+
+.sidebar .main-navigation > ul > li > a{
+	color: #fff;
+	font-size: 15px;
+}
+
+.sidebar{
+	border:none;
+	/*background: #242223;*/
+	background-color:#403e3f;
+	min-height: 100vh;
+}
+
+.main-navigation > ul > li:hover{
+	/*background-color: #403e3f;
+*/
+	background-color:#333132;
+	    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.main-navigation > ul > li.active{
+	background-color: #403e3f;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.main-navigation > ul > li ul li:hover{
+	background-color: #242223;
+}
+
+.main-navigation > ul > li ul li.active{
+	background-color: #696969;
+}
+
+.main-navigation > ul > li ul li ul li.active{
+	background-color: #525252;
+}
+
+
+.main-navigation > ul > li ul li.active > a{
+	padding: 0 5px;
+}
+
+#megaUber > li > a + ul{
+	background: #525252;
+}
+
+.main-navigation > ul > li ul a{
+	color: #fff;
+	font-size: 14px;
+}
+.sidebar-actionbar li a{
+	color: #000;
+	padding: 10px 5px;
+	font-weight: 600;
+}
+.awe-phone{
+	color: #00bcd4;
+}
+.awe-truck{
+	color:#92e4ff;
+
+}
+.main-navigation > ul > li ul a span{
+	margin: 0 5px 5px 5px;
+	
+}
+/*  - - - - - - - - - - - -
+	SIDEBAR SECTION OVER
+- - - - - - - - - - - - - */
+
+textarea{
+	resize: none;
+}
+
+.breadcrumb{
+	font-size: 12px;
+	height: 30px;
+}
+.breadcrumb li{
+	padding-top: 5px;
+}
+
+.table th{
+	color: #fff;
+	font-weight: initial;
+}
+label{
+	font-weight: initial;
+}
+#date label{
+	display: initial;
+}
+.page_limits .form-horizontal .control-label{
+	width: 350px;
+}
+.page_limits .input-xlarge{
+	width: 50px;
+}
+.page_limits .form-horizontal .controls{
+	margin-left: 395px;
+}
+.series_form label{
+	width: 140px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.radio input[type="radio"], .checkbox input[type="checkbox"]{
+	margin-left: 0px;
+	margin-right: 10px;
+}

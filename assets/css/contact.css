@@ -1,0 +1,209 @@
+@font-face{font-family:'GothamRounded-Book';src:url('../fonts/GothamRounded-Book.ttf');src:url('../fonts/GothamRounded-Book.eot');src:url('../fonts/GothamRounded-Book.eot') format('embedded-opentype'), url('../fonts/GothamRounded-Book.woff') format('woff'), url('../fonts/GothamRounded-Book.ttf') format('truetype'), url('../fonts/GothamRounded-Book.svg#GothamRounded-Book') format('svg')}@font-face{font-family:'GothamRounded-Medium';src:url('../fonts/GothamRounded-Medium.ttf');src:url('../fonts/GothamRounded-Medium.eot');src:url('../fonts/GothamRounded-Medium.eot') format('embedded-opentype'), url('../fonts/GothamRounded-Medium.woff') format('woff'), url('../fonts/GothamRounded-Medium.ttf') format('truetype'), url('../fonts/GothamRounded-Medium.svg#GothamRounded-Medium') format('svg')}
+
+.wrapper {
+        width: 90%;
+        margin: 0 auto;
+}
+
+#contact {
+        margin-top: 40px;
+        background: #666;
+}
+
+#contact .cont_box {
+        margin: 10px;
+        padding-top: 20px;
+}
+
+#contact .cont_box .add {
+        padding-bottom: 30px;
+
+}
+
+#contact .cont_box .add img {
+        float: left;
+        width: 40px;
+        height: auto;
+        margin-right: 10px;
+}
+
+#contact .cont_box .add h3 {
+        margin: 0px;
+        padding: 0px;
+        color: #fff;
+}
+
+#contact .cont_box .add p {
+        padding-top: 8px;
+        color: #fff;
+        margin-left: 45px;
+        line-height: 25px;
+}
+
+#contact .cont_box .add p a {
+        color: #fff;
+}
+
+#form-c {
+        width: 100%;
+        padding: 80px 0;
+}
+
+#form-c .form-box {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        z-index: 9;
+}
+
+#form-c .form-box::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 70%;
+        top: 100px;
+        background: #235a40;
+        z-index: -1;
+}
+
+#form-c .form-box .in-head {
+        margin-bottom: 40px;
+}
+
+#form-c .form-box .in-head h1 {
+        text-align: center;
+}
+
+#form-c .form-box .in-form {
+        padding: 60px 120px;
+        /*	padding:0 80px;*/
+        /*	background: #0f61aa;*/
+}
+
+#form-c .form-box .in-form .form-group {
+        padding-top: 40px;
+        margin: 0 10px;
+}
+
+#form-c .form-box .in-form #formoid {
+
+        background: #fff;
+        padding: 60px;
+        box-shadow: 0 1.25em 3.75em -.625em rgba(0, 0, 0, 0.4);
+        /*	margin-top: 80px;*/
+}
+
+#form-c .form-box .in-form .form-group .form-control {
+        border: none;
+        box-shadow: none;
+        border-bottom: 3px solid #e4e4e4;
+}
+
+.contactForm__button-holder {
+        margin-top: 40px;
+        text-align: center;
+}
+
+#con-header{
+	padding: 180px 0 40px 0;
+	width: 100%;
+}
+#con-header .cont_main{
+        width: 60%;
+        margin: 0 auto;
+}
+#con-header .con-img{}
+#con-header .con-img img{
+	max-width: 100%;
+	width: 200px;
+}
+#con-header .con-add{}
+#con-header .con-add h3{
+        font-weight: bold;
+}
+#con-header .con-add p{
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 25px;
+}
+#con-header .con-ph{}
+#con-header .con-ph .ph-bx{
+	padding-bottom: 10px;
+}
+#con-header .con-ph .ph-bx img{
+	float: left;
+
+width: 40px;
+
+height: auto;
+
+margin-right: 10px;
+}
+#con-header .con-ph .ph-bx p{
+	padding-top: 8px;
+/*color: #fff;*/
+margin-left: 45px;
+line-height: 25px;
+}
+#con-header .con-ph .ph-bx p a{
+	color: #333;
+}
+#map{
+	width: 100%;
+/*	padding-bottom: 80px;*/
+}
+@media only screen and (max-width:1366px) {
+	#form-c .form-box{
+		width: 90%;
+	}
+}
+@media only screen and (max-width:1024px) {
+	#form-c .form-box{
+		width: 100%;
+	}
+	.wrapper{
+		width: 90% !important;
+	}
+	#con-header .cont_main{
+		width: 80%;
+	}
+	
+}
+@media only screen and (max-width:767px) {
+	.logo-none{
+		display: none;
+	}
+	#con-header, #form-c{
+		padding: 40px 0;
+	}
+	#form-c .form-box .in-form{
+		padding: 60px;
+	}
+	
+}
+@media only screen and (min-width:200px) and (max-width:500px) {
+	#con-header .cont_main .col-xs-6{
+		width: 100%;
+		
+	}
+	.wrapper{
+		width: 100% !important;	
+	}
+	#form-c .form-box .in-form{
+		padding: 20px;
+	}
+	#form-c .form-box .in-form #formoid{
+		padding: 20px;
+	}
+	#form-c .form-box::after {
+/*		position: initial;*/
+		height: 100%;
+		top: 0px;
+	}
+	#form-c .form-box .in-form #formoid {
+		box-shadow: none;
+	}
+	.bg-wh{
+		background: #fff;
+	}
+}

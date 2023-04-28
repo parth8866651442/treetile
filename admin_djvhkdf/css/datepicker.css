@@ -1,0 +1,305 @@
+.datepickBorderBR { display:none; }
+
+.datepickHidden {
+  display: none;
+}
+div.datepick table {
+  border-collapse:collapse;
+}
+div.datepick a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+div.datepick table td {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+div.datepick th {
+  text-align: center;
+  color: #666666;
+  font-weight: normal;
+  padding:0;
+}
+div.datepick tbody a {
+  display: block;
+}
+.datepickDays a {
+  width: 20px;
+  line-height: 16px;
+  height: 16px;
+  padding-right: 2px;
+}
+.datepickYears a,
+.datepickMonths a{
+  width: 39px;
+  line-height: 36px;
+  height: 36px;
+  text-align: center;
+}
+.datepickMonths td:first-child a,
+.datepickMonths td:last-child a,
+.datepickYears td:first-child a,
+.datepickYears td:last-child a {
+  width:38px;
+}
+/*td.datepickDisabled a, td.datepickFuture a {
+  color: #CDCDCD;
+  cursor: default;
+}
+
+td.datepickDisabled a:hover, td.datepickFuture a:hover {
+  color: #CDCDCD !important;
+}*/
+
+tbody.datepickDays td.datepickSelected{
+  background: #30A38B;
+}
+tbody.datepickDays td.datepickNotInMonth.datepickSelected {
+  background: #FFFFFF;
+}
+/*div.datepick td.datepickSelected a, div.datepick td.datepickSelected2 a {
+  color: #FFFFFF;
+}
+tbody.datepickDays td.datepickSelected2 {
+  background: #ABD6CB;
+}
+tbody.datepickDays td.datepickSelected.datepickSelected2 {
+  background: #00B1AB;
+}
+
+tbody.datepickDays td.datepickNotInMonth.datepickSelected2 {
+  background: #FFFFFF;
+}*/
+
+div.datepick td.datepickSelected a {
+  color: #FFFFFF;
+}
+div.datepick a:hover,
+div.datepick a:hover {
+  color: #30A38B;
+}
+div.datepick td.datepickNotInMonth a:hover {
+  color: #999999;
+}
+td.datepickToday a {
+  font-weight:bold;
+}
+
+.datepickSpace div {
+  width: 10px;
+}
+.datepickBlock {
+  vertical-align:top;
+  padding: 0 5px !important;
+  background-color: #FFFFFF;
+  border: 1px solid #DDD;
+}
+a.datepickGoNext,
+a.datepickGoPrev,
+a.datepickMonth {
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  float:left;
+}
+a.datepickGoNext {
+  float:right;
+}
+div.datepick th a.datepickGoNext,
+div.datepick th a.datepickGoPrev {
+  width: 20px;
+  color: #666666;
+  visibility: hidden;
+  cursor:pointer;
+}
+div.datepick th a.datepickMonth {
+  width:106px;
+  display:block;
+  cursor:pointer;
+}
+
+/* Only display the previous/next arrows on the first/last calendars */
+div.datepick .datepickFirstView th a.datepickGoPrev,
+div.datepick .datepickLastView th a.datepickGoNext {
+  visibility: visible
+}
+
+div.datepick .datepickFirstView th a.datepickMonth {
+  margin-left:0;
+}
+
+/* Day mode calendar body */
+table.datepickViewDays tbody.datepickMonths,
+table.datepickViewDays tbody.datepickYears {
+  display: none;
+}
+
+table.datepickViewDays tr th {
+  padding-bottom: 2px;
+}
+
+/* Month mode calendar body */
+table.datepickViewMonths tbody.datepickDays,
+table.datepickViewMonths tbody.datepickYears,
+table.datepickViewMonths tr.datepickDoW {
+  display: none;
+}
+
+/* Year mode calendar body */
+table.datepickViewYears tbody.datepickDays,
+table.datepickViewYears tbody.datepickMonths,
+table.datepickViewYears tr.datepickDoW {
+  display: none;
+}
+
+tr.datepickDoW {
+  cursor:default;
+}
+
+tbody.datepickDays td.datepickNotInMonth.datepickSelected {
+  background-color:transparent;
+}
+div.datepick td.datepickNotInMonth a span {
+  display:none;
+}
+div.datepick td.datepickNotInMonth a:hover span {
+  display:none;
+}
+div.datepick tbody.datepickDays td.datepickNotInMonth:hover {
+  background-color: transparent;
+}
+
+#datepick-dropdown {
+	font-size: 12px;
+}
+
+.date-range-field {
+	overflow: hidden;
+	position: relative;
+	cursor:pointer;
+	border: 1px solid #CCCCCC;
+	background-color: white;
+  padding: 5px;
+}
+
+.date-range-field a  {
+	color:#D2D2D2;
+	text-align:center;
+	display: inline-block;
+	width: 26px;
+	text-decoration: none;
+  line-height: 1em;
+}
+
+.date-range-field span {
+	font-weight: bold;
+	color: #404040;
+	display: inline-block;
+  width: 160px;
+  line-height: 1em;
+}
+
+.date-range-field span.comparison {
+	color: gray;
+	font-weight: normal;
+	font-size: 0.7em;
+  padding-top: 3px;
+}
+
+#datepick-dropdown {
+	position: absolute;
+	top: 23px;
+	left: 0;
+	overflow: hidden;
+	width: 750px;
+	background-color: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	display:none;
+	padding:5px 0px 5px 10px;
+}
+
+#datepick-dropdown div.datepick {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+
+.datepick-calendar {
+	float: left;
+}
+
+.datepick-compare-calendar {
+	clear: both;
+	float: left;
+}
+
+#datepick-dropdown .right {
+	float:left;
+}
+
+#datepick-dropdown input[type=text] {
+	width: 7em;
+}
+
+.datepick, .date-ranges-form {
+	float: left;
+}
+
+.date-ranges-form {
+	margin-left: 15px;
+  margin-top:5px;
+}
+
+.daterange-preset-parameter1 {
+	width: 3em;
+}
+
+#datepick-dropdown select {
+  margin-left: 5px;
+}
+
+#datepick-dropdown .date-range-wrap {
+  display:none;
+  margin: 5px 0;
+}
+
+#datepick-dropdown .main-daterange {
+  margin: 5px 0;
+}
+
+#datepick-dropdown .comparison-daterange {
+  margin: 5px 0;
+  display:none;
+}
+
+#datepick-dropdown .actions button {
+  padding: 4px;
+}
+
+#datepick-dropdown .legend .color-wrap {
+  float:left;
+  width: 95px;
+}
+#datepick-dropdown .legend .color-wrap .color {
+  width: 15px;
+  height: 15px;
+  display: block;
+  border-radius: 3px;
+  float:left;
+}
+#datepick-dropdown .legend .color-wrap .color.compare {
+  background: #ABD6CB;
+}
+#datepick-dropdown .legend .color-wrap .color.selected {
+  background: #30A38B;
+}
+#datepick-dropdown .legend .color-wrap .explain {
+  display: block;
+  float:left;
+  width: 80px;
+  padding-left:4px;
+}
+

@@ -1,0 +1,369 @@
+.cal-title {
+	background-color: #235a40;
+	color: #fff !important;
+	font-size: 18px;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+	text-align: left;
+}
+section.mextreo-hero.inner .c-main .calbtn:hover {
+	color: #ffffff;
+	background: #000;
+	border-color: #235a40;
+}
+section.mextreo-hero.inner .c-main .calbtn {
+	position: relative;
+	margin-top: 40px;
+	background: transparent;
+	padding: 12px 36px;
+	font-weight: 500;
+	color: #0c0c1f;
+	border: 1px solid #0c0c1f;
+	display: inline-block;
+	text-transform: uppercase;
+	transition: .4s ease;
+}
+.c-main {
+	margin: 0 auto;
+	width: 100%;
+}
+.m-input {
+	position: relative;
+	font-size: 15px;
+	padding: 10px 0;
+	color: #000;
+	font-size: 15px;
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	font-weight: 500;
+	border-bottom: 1px solid #c8c8c8;
+	width: 68%;
+}
+.c-half {
+	/*box-shadow: 1px 1px 5px #808080;*/
+	float: left;
+	margin: 10px;
+	padding: 15px;
+	width: 47%;
+	border: 1px solid gray;
+	background-color: #fff;
+}
+.c-full {
+	width: 97%;
+}
+.c-row {
+	clear: both;
+}
+.contact-form select {
+	width: 50% !important;
+}
+.ml_17 {
+	margin-left: 0px !important;
+}
+label {
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 0;
+	text-align: left;
+}
+.c-label {
+	float: left;
+	line-height: 15px;
+	width: 30%;
+	margin-right: 10px;
+}
+.c-full .c-label {
+	width: 15%;
+	line-height: 40px;
+}
+.c-full .c-btn-primary {
+	margin-left: 16%;
+}
+.c-heading {
+	border: 1px solid rgba(0, 0, 0, .2);
+	box-sizing: border-box;
+	color: #000000;
+	font-size: 14px;
+	padding: 10px 15px;
+	width: 95%;
+}
+.legth, .width, .size, .area {
+	width: 75%;
+	margin-right: 15px;
+}
+.pull-right {
+	float: right !important;
+}
+.c-btn-primary {
+	-moz-user-select: none !important;
+	/*background-color: #1DB5BB !important;*/
+	background-image: none !important;
+	border: 1px solid transparent !important;
+	border-radius: 4px !important;
+	color: #fff !important;
+	cursor: pointer !important;
+	display: inline-block !important;
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	line-height: 1.42857 !important;
+	margin-left: 35%;
+	margin-top: 5% !important;
+	padding: 6px 12px !important;
+	text-align: center !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+/*.calbtn{
+  width: 50%;
+
+}*/
+/*.btn--action:after {
+    content: "" !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    background: #74d1ea !important;
+    -webkit-transition: all 0.5s ease-in-out !important;
+    transition: all 0.5s ease-in-out !important;
+    height: 360px !important;
+    width: 360px !important;
+    transform: translateX(-100%) translateY(-25%) rotate(45deg) !important;
+}*/
+.c-result {
+	/*box-shadow: 1px 1px 5px #808080;*/
+	border: 1px solid gray;
+	float: left;
+	margin: 10px;
+	padding: 15px;
+	width: 97%;
+	background-color: #fff;
+}
+.c-title {
+	background-color: #235a40;
+	color: #f7f8f9 !important;
+	font-size: 18px;
+	margin-bottom: 15px;
+	padding: 5px 10px;
+	text-align: left;
+}
+.c-result h3 {
+	border-bottom: 1px solid #eeeeee;
+	float: left;
+	margin: 0 0 15px;
+	padding-bottom: 4px;
+	width: 100%;
+}
+.area-covered {
+	width: 50%;
+}
+.border {
+	border: 1px solid #eee;
+	padding: 5px 10px;
+}
+.c-result .c-label {
+	margin-right: 10px;
+	/*text-align: right;*/
+	line-height: 40px;
+}
+.clear {
+	clear: both;
+}
+
+.button_cal {
+  background-color: #235a40; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+.c-half {
+	width: 46%;
+}
+.c-full {
+	width: 95%;
+}
+.c-result {
+	width: 95%;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.c-half {
+	width: 97%;
+}
+.c-result .c-label {
+	line-height: 24px;
+}
+.c-result .area-covered {
+	width: 27%;
+}
+.c-full .c-label {
+	width: 20%;
+}
+}
+
+@media only screen and (max-width:479px) {
+.c-half {
+	width: 97%;
+}
+.c-label {
+	width: 35%;
+}
+.legth, .width, .size, .area {
+	width: 40%;
+}
+.c-result .c-label {
+	font-size: 15px;
+	line-height: 25px;
+	text-align: left;
+	width: 75%;
+}
+.area-covered {
+	width: 75%;
+}
+.c-full .c-label {
+	width: 30%;
+}
+}
+.tileDiv {
+	background: none repeat scroll 0 0;
+	border: 1px solid gray;
+	display: inline-block;
+	height: 220px;
+	overflow: hidden;
+	position: relative;
+	vertical-align: middle;
+	width: 100%;
+}
+.tileDiv div {
+	background: #fff url("tilePattern.png") repeat scroll -4px -4px;
+	border: 1px solid #000;
+	box-shadow: 0 0 8px 5px #fff;
+	left: 52%;
+	position: absolute;
+	top: 52%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.tileDiv .tileFt {
+	background: #868686 none repeat scroll 0 0;
+	margin-bottom: 0;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+}
+.horzFt {
+	border-top: 1px dashed #868686;
+	height: 0;
+	left: 0;
+	top: -20px;
+	width: 100%;
+}
+.tileDiv .horzFt span {
+	margin-left: 50%;
+	margin-top: -12px;
+	transform: translateX(-50%);
+}
+.tileDiv .tileFt span {
+	background: #f9f9f9 none repeat scroll 0 0;
+	color: gray;
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	position: absolute;
+	text-transform: uppercase;
+	width: 50px;
+}
+.vertFt {
+	border-left: 1px dashed #868686;
+	height: 100%;
+	left: -20px;
+	top: 0;
+	width: 0;
+}
+.tileDiv .tileFt {
+	background: #868686 none repeat scroll 0 0;
+	margin-bottom: 0;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+}
+.tileDiv .vertFt span {
+	margin-left: -27px;
+	top: 50%;
+	transform: rotate(-90deg) translateX(20%);
+}
+.tileDiv .tileFt span {
+	background: #f9f9f9 none repeat scroll 0 0;
+	color: gray;
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	position: absolute;
+	text-transform: uppercase;
+	width: 50px;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.tips {
+	color: #000;
+}
+.resultp {
+	color: #000;
+}
+.submitbtn {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 10px 20px;
+	background-color: #000;
+	color: #fff;
+	font-weight: bolder;
+}
+.submitbtn:hover {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #fff;
+	font-weight: bolder;
+}
+.submitbtn:focus {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #fff;
+	font-weight: bolder;
+}
+.box1 {
+	background: #eaeaea none repeat scroll 0 0;
+	height: auto;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.c-row span
+{
+	font-size:16px;
+	font-weight:500;
+}
+
+@media only screen and (max-device-width: 991px) {
+	.responsivecal {
+		clear: both;
+	}
+}

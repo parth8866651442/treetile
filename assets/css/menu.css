@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'GothamRounded-Book';
+	src: url('../fonts/GothamRounded-Book.ttf');
+	src: url('../fonts/GothamRounded-Book.eot');
+	src: url('../fonts/GothamRounded-Book.eot') format('embedded-opentype'), url('../fonts/GothamRounded-Book.woff') format('woff'), url('../fonts/GothamRounded-Book.ttf') format('truetype'), url('../fonts/GothamRounded-Book.svg#GothamRounded-Book') format('svg')
+}
+
+@font-face {
+	font-family: 'GothamRounded-Medium';
+	src: url('../fonts/GothamRounded-Medium.ttf');
+	src: url('../fonts/GothamRounded-Medium.eot');
+	src: url('../fonts/GothamRounded-Medium.eot') format('embedded-opentype'), url('../fonts/GothamRounded-Medium.woff') format('woff'), url('../fonts/GothamRounded-Medium.ttf') format('truetype'), url('../fonts/GothamRounded-Medium.svg#GothamRounded-Medium') format('svg')
+}
+
+#header {
+	position: absolute;
+	z-index: 9;
+	top: 0.5%;
+/*	top: 8%;*/
+	width: 100%
+}
+
+#header .header_inner {
+	background: #ffffff78;
+}
+
+#header .header_inner .logo {
+	margin: 10px
+}
+
+#header .header_inner .logo img {
+	padding: 10px;
+	width: 150px
+}
+
+#header .header_inner .rgdev {
+	font-family: 'GothamRounded-Book'
+}
+
+#header .header_inner .menu_list .menu_ul {
+	text-align: right;
+	margin: 0px;
+	padding: 0px
+}
+
+#header .header_inner .menu_list .menu_ul .menu_li {
+	list-style: none;
+	display: inline-block;
+	padding: 23px 0px
+}
+
+#header .header_inner .menu_list .menu_ul .menu_li .menu_a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+	padding: 10px 15px;
+	font-family: 'GothamRounded-Medium';
+	letter-spacing: 1px;
+	color: #212121;
+	-webkit-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+	position: relative
+}
+#header .header_inner .menu_list .menu_ul .menu_li .menu_a:hover {
+	color: #00a859;
+}
+#header .header_inner .menu_list .menu_ul .menu_li .menu_a:hover:before {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 15px;
+	right: 15px;
+	height: 4px;
+	border-radius: 5px;
+	background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#00a859), to(#ffd042));
+	background-image: -webkit-linear-gradient(left, #00a859, #ffd042);
+	background-image: -moz-linear-gradient(left, #00a859, #ffd042);
+	background-image: -o-linear-gradient(left, #00a859, #ffd042)
+}
+
+#header .header_inner .menu_list .menu_ul .menu_li .active {
+	position: relative
+}
+
+#header .header_inner .menu_list .menu_ul .menu_li .active:before {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 15px;
+	right: 15px;
+	height: 4px;
+	border-radius: 5px;
+	background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#00a859), to(#ffd042));
+	background-image: -webkit-linear-gradient(left, #00a859, #ffd042);
+	background-image: -moz-linear-gradient(left, #00a859, #ffd042);
+	background-image: -o-linear-gradient(left, #00a859, #ffd042)
+}
+
+@media only screen and (max-width:1450px) {
+	.menu_wrap {
+		width: 95% !important;
+	}
+}
+@media only screen and (max-width:1250px) {
+	#header .header_inner .menu_list .menu_ul .menu_li {
+		padding: 0px
+	}
+}
+@media only screen and (max-width:500px) {
+    #header{
+        top: 0;
+        position: relative;
+    }
+    .menu_wrap{
+        width: 100% !important; 
+    }
+}

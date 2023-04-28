@@ -1,0 +1,513 @@
+@font-face {
+	font-family: 'GothamRounded-Book';
+	src: url('../fonts/GothamRounded-Book.ttf');
+	src: url('../fonts/GothamRounded-Book.eot');
+	src: url('../fonts/GothamRounded-Book.eot') format('embedded-opentype'), url('../fonts/GothamRounded-Book.woff') format('woff'), url('../fonts/GothamRounded-Book.ttf') format('truetype'), url('../fonts/GothamRounded-Book.svg#GothamRounded-Book') format('svg')
+}
+@font-face {
+	font-family: 'GothamRounded-Medium';
+	src: url('../fonts/GothamRounded-Medium.ttf');
+	src: url('../fonts/GothamRounded-Medium.eot');
+	src: url('../fonts/GothamRounded-Medium.eot') format('embedded-opentype'), url('../fonts/GothamRounded-Medium.woff') format('woff'), url('../fonts/GothamRounded-Medium.ttf') format('truetype'), url('../fonts/GothamRounded-Medium.svg#GothamRounded-Medium') format('svg')
+}
+#circle1 {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	z-index: -1
+}
+#circle1 img {
+	width: 100%
+}
+#circle2 {
+	position: absolute;
+	right: 0px;
+	margin-top: -400px
+}
+#circle2 img {
+	width: 100%
+}
+#circle3 {
+	position: absolute;
+	z-index: -1;
+	left: 0
+}
+#circle3 img {
+	width: 80%;
+	-ms-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg)
+}
+#circle4 {
+	position: absolute;
+	right: 0;
+	text-align: right;
+	z-index: -1
+}
+#circle4 img {
+	width: 80%
+}
+#circle_small1 {
+	position: absolute;
+	margin-top: -150px;
+	z-index: -1;
+	width: 100%
+}
+#circle_small1 img {
+	width: 300px
+}
+#circle_small2 {
+	position: absolute;
+	z-index: -1;
+	right: 0px;
+	text-align: right
+}
+#circle_small2 img {
+	width: 300px;
+	-ms-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg)
+}
+#brand {
+	padding: 200px 0px 0px
+}
+#brand .videos {
+	height: 600px
+}
+#brand .videos iframe {
+	width: 100%;
+	height: 100%
+}
+#brand .box {
+	background-color: #00a859;
+	width: 90%;
+	margin: 0 auto
+}
+#brand .box .seron_brand .seron_des {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+#brand .box .seron_brand .seron_des ul {
+	padding: 30px 0px
+}
+#brand .box .seron_brand .seron_des ul li {
+	color: #fff;
+	font-family: 'GothamRounded-Book';
+	margin: 20px;
+	list-style: none
+}
+#brand .box .seron_brand .seron_des ul li a {
+	color: #fff;
+	font-family: 'GothamRounded-Book';
+	text-decoration: none
+}
+#brand .box .seron_brand .seron_des ul li a span img {
+	max-width: 100%
+}
+#brand .box .about_box {
+	margin-top: -40px;
+	background: #fff
+}
+#brand .box .about_box .about_seron {
+	background: #fff;
+	padding: 25px
+}
+#brand .box .about_box .about_seron p {
+	color: #222222;
+	font-family: 'GothamRounded-Book';
+	line-height: 35px;
+	padding-top: 15px;
+	text-align: justify
+}
+#vision_mission {
+	padding: 80px 0px 0px
+}
+#vision_mission .boxes {
+	padding: 50px;
+	background: url(../img/vision-mission.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-box-shadow: 0px 0px 50px #ccc;
+	box-shadow: 0px 0px 50px #ccc
+}
+#vision_mission .boxes .box {
+	margin: 50px 0px
+}
+#vision_mission .boxes .box .description p {
+	font-family: 'GothamRounded-Book';
+	color: #222222;
+	font-size: 17px;
+	margin: 20px 0px
+}
+#competences {
+	position: relative;
+	z-index: 1;
+	padding: 80px 0px 0px
+}
+#competences .happen_list {
+	background-color: #fff
+}
+#competences .happen_list .boxes {
+	padding: 50px;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s
+}
+#competences .happen_list .boxes h4 {
+	font-family: 'GothamRounded-Book';
+	color: #222222
+}
+#competences .happen_list .boxes:hover {
+	background-color: #fff;
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-box-shadow: 0px 0px 50px #ccc;
+	box-shadow: 0px 0px 50px #ccc
+}
+#competences .happen_list #caracteristicas .column h1 {
+	font-family: 'GothamRounded-Medium';
+	color: #ffd042;
+	background: #00a859;
+	background: -moz-linear-gradient(left, #00a859 0%, #ffd042 100%);
+	background: -webkit-linear-gradient(left, #00a859 0%, #ffd042 100%);
+	background: -webkit-gradient(linear, left top, right top, from(#00a859), to(#ffd042));
+	background: -o-linear-gradient(left, #00a859 0%, #ffd042 100%);
+	background: linear-gradient(to right, #00a859 0%, #ffd042 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='@theme_color', endColorstr='@theme_color2', GradientType=1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+#competences .happen_list #caracteristicas .column p {
+	font-family: 'GothamRounded-Book';
+	color: #222222;
+	text-transform: capitalize
+}
+#series {
+	padding: 80px 0px 0px
+}
+#series .boxes .column {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 -2px;
+	width: 100%;
+	padding: 80px 0;
+	cursor: pointer;
+	height: 455px
+}
+#series .boxes .column:hover .text .button-wrap {
+	opacity: 1;
+	margin-top: 20px;
+	margin-bottom: -20px;
+	-webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 1s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+	-o-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 1s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 1s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+#series .boxes .column .bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 101%;
+	background-size: cover;
+	height: 455px;
+	background-position: center;
+	-webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+	-o-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+	background-color: #ccc;
+	background-blend-mode: multiply
+}
+#series .boxes .column .bg:hover {
+	height: 530px;
+	top: -40px;
+	z-index: 1;
+	-webkit-box-shadow: 0 0 87px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 87px rgba(0, 0, 0, 0.25);
+	background-blend-mode: normal
+}
+#series .boxes .column .text {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	padding-left: 45px;
+	padding-bottom: 30px;
+	overflow: hidden
+}
+#series .boxes .column .text .logo {
+	margin: 10px 0px
+}
+#series .boxes .column .text small {
+	font-family: 'GothamRounded-Book';
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	display: block;
+	letter-spacing: 1px;
+	font-weight: 100;
+	font-weight: normal
+}
+#series .boxes .column .text .button-wrap {
+	display: block;
+	opacity: 0;
+	margin-bottom: -60px;
+	-webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 1s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+	-o-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 1s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 1s 0.2s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+#brand_ideology {
+	padding: 80px 0px 0px
+}
+#brand_ideology .boxes {
+	padding: 20px
+}
+#brand_ideology .boxes .box {
+	background-color: #fff;
+	padding: 100px 50px;
+	position: relative;
+	top: 70px
+}
+#brand_ideology .boxes .box .head {
+	margin: 20px 0px
+}
+#brand_ideology .boxes .box .head h2 {
+	font-family: 'GothamRounded-Book';
+	color: #222222;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bold
+}
+#brand_ideology .boxes .box .description {
+	margin: 20px 0px
+}
+#brand_ideology .boxes .box .description p {
+	font-family: 'GothamRounded-Book';
+	color: #222222;
+	text-align: justify;
+	font-size: 17px;
+	line-height: 30px
+}
+#brand_ideology .boxes .images {
+	text-align: center
+}
+#brand_ideology .boxes .images img {
+	width: 100%
+}
+#brand_ideology .rights {
+	display: none
+}
+#environment {
+	padding: 80px 0px 0px
+}
+#environment .boxes {
+	background-color: #fff;
+	-webkit-box-shadow: 0px 0px 50px #ccc;
+	box-shadow: 0px 0px 50px #ccc;
+	margin: 50px 0px;
+	padding: 0px 80px
+}
+#environment .boxes .description p {
+	font-family: 'GothamRounded-Book';
+	color: #222222;
+	font-size: 17px;
+	text-align: justify;
+	line-height: 30px
+}
+#environment .boxes .box {
+	margin: 80px 20px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+#environment .boxes .box img {
+	width: 50px
+}
+#environment .boxes .box p {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #222222;
+	text-align: center;
+	font-family: 'GothamRounded-Book';
+	font-weight: bold;
+	text-transform: uppercase
+}
+#export {
+	margin: 80px 0px 0px;
+	background-color: #fff;
+	padding: 30px 0px
+}
+#export .images {
+	text-align: center;
+	padding: 20px
+}
+#export .images img {
+	width: 90%
+}
+#export .export_country {
+	background: #fff;
+	padding: 30px
+}
+#export .export_country h2 {
+	font-family: 'GothamRounded-Book';
+	text-transform: uppercase;
+	color: #222222
+}
+#export .export_country .county_list {
+	margin: 30px 0px
+}
+#export .export_country .county_list ul {
+	margin: 0px;
+	padding: 0px
+}
+#export .export_country .county_list ul h3 {
+	font-family: 'GothamRounded-Book';
+	text-transform: uppercase;
+	color: #222222;
+	font-size: 15px;
+	font-weight: bold
+}
+#export .export_country .county_list ul li {
+	line-height: 30px;
+	list-style: none;
+	font-family: 'GothamRounded-Book';
+	color: #222222;
+	text-transform: uppercase
+}
+#export .export_country .county_list ul .l_part {
+	width: 40%;
+	display: inline-block
+}
+#showroom {
+	padding: 80px 0px 0px
+}
+#showroom .showroom_box {
+	padding: 20px;
+	margin: 20px;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 0px 50px #ccc;
+	box-shadow: 0px 0px 50px #ccc
+}
+#showroom .showroom_box iframe {
+	width: 100%;
+	height: 400px
+}
+
+@media only screen and (min-width:1920px) {
+#brand .box .about_box .about_seron {
+	padding-top: 65px
+}
+}
+
+@media only screen and (max-width:992px) {
+#brand .box {
+	width: 100%
+}
+#brand_ideology .rights {
+	display: inherit
+}
+#brand_ideology .lefts {
+	display: none
+}
+}
+
+@media (max-width:767px) {
+#circle1 {
+	display: none
+}
+#circle2 {
+	display: none
+}
+#circle3 {
+	display: none
+}
+#circle4 {
+	display: none
+}
+#circle_small1 {
+	display: none
+}
+#circle_small2 {
+	display: none
+}
+#brand {
+	padding: 150px 0px 0px
+}
+#brand .videos {
+	height: auto
+}
+#series .boxes .column .text {
+	padding-left: 30px
+}
+#series .boxes .column .text .logo {
+	width: auto;
+	height: 50px
+}
+#brand_ideology .boxes {
+	padding: 0px;
+	margin-bottom: 20px
+}
+#brand_ideology .boxes .box {
+	padding: 20px;
+	position: inherit
+}
+#brand_ideology .boxes .box .head {
+	margin: 0px
+}
+#brand_ideology .boxes .box .head h2 {
+	font-size: 20px
+}
+#brand_ideology .boxes .box .description {
+	margin: 20px 0px
+}
+#environment .boxes {
+	margin: 0px;
+	padding: 20px
+}
+#environment .boxes .box {
+	margin: 20px
+}
+#showroom .showroom_box {
+	margin: 20px 0px;
+	padding: 10px
+}
+#showroom .showroom_box iframe {
+	width: 100%;
+	height: auto
+}
+}
+#cerificate{
+        width: 100%;
+}
+#cerificate .ceri_mainbox{
+        padding: 20px 0;
+        background: #fff;
+}
+#cerificate .ceri_mainbox .certi_box{
+        margin: 10px;
+}
+#cerificate .ceri_mainbox .certi_box .certi_img{
+        text-align: center;
+}
+#cerificate .ceri_mainbox .certi_box .certi_img img{
+        max-width: 120px;
+}

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Allow: sitemap.xml
+Allow: sitemap.html
+
+
+Sitemap: https://treetile.in/sitemap.xml
+
+Disallow: /cgi-bin/
